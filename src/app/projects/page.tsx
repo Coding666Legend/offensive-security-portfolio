@@ -12,8 +12,6 @@ import { Card } from "@/components/card";
 import { FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub, FaImage } from "react-icons/fa6";
 
-import projects from "./projects.json";
-
 import styles from "./projects.module.scss";
 
 import projectsData from "./projects.json";
