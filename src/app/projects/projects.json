@@ -1,0 +1,9 @@
+[
+  {
+    "title": "Network & WebApp Pentesting Lab",
+    "description": "Lab for the Hands on of Network & WebApp Penetration Testing.",
+    "repository": "https://github.com/Forbrig/flamingo",
+    "technologies": ["KVM", "Kali Linux", "Metasploitable 2", "DVWA"],
+    "image": "/projects/NetWebPenTest/NetWebPenTest.png"
+  }  
+]

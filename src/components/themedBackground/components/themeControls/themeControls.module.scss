@@ -1,0 +1,82 @@
+.theme-controls {
+  position: absolute;
+  z-index: 9999;
+  top: calc(20px + var(--header-height));
+  animation: fadeIn 0.5s ease-in-out;
+
+  @media (max-width: 768px) {
+    display: none;
+  }
+
+  &[data-hide="true"] {
+    animation: fadeOut 0.5s ease-in-out forwards;
+  }
+
+  .controls-toggle {
+    position: fixed;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+  }
+
+  .controls-panel {
+    position: fixed;
+    top: calc(var(--header-height) + 80px);
+    right: 20px;
+    border: 1px solid var(--border-color);
+    border-radius: 10px;
+    padding: 20px;
+    min-width: 250px;
+    backdrop-filter: blur(10px);
+    color: var(--text-color);
+    animation: fadeIn 0.3s ease-in-out;
+
+    &[data-hide="true"] {
+      animation: fadeOut 0.3s ease-in-out forwards;
+    }
+
+    h3 {
+      margin: 0 0 15px 0;
+      font-size: 16px;
+      font-weight: 600;
+      text-align: center;
+    }
+
+    .control-group {
+      margin-bottom: 15px;
+
+      .title {
+        display: block;
+        margin-bottom: 5px;
+        font-size: 14px;
+        font-weight: 500;
+      }
+    }
+
+    .actions {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      margin-top: 20px;
+    }
+  }
+}
+
+@keyframes fadeOut {
+  from {
+    opacity: 1;
+  }
+  to {
+    opacity: 0;
+    visibility: hidden;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}

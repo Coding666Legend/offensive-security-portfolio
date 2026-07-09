@@ -1,0 +1,63 @@
+[
+  {
+    "title": "Network & WebApp Pentesting Lab",
+    "description": "Lab for the Hands on of Network & WebApp Penetration Testing.",
+    "repository": "https://github.com/Forbrig/flamingo",
+    "technologies": ["KVM", "Kali Linux", "Metasploitable 2", "DVWA"],
+    "image": "/projects/flamingo/flamingo.png"
+  },
+  {
+    "title": "Cart Pole",
+    "description": "Solving CartPole problem from the OpenAI Gym toolkit using AI.",
+    "repository": "https://github.com/Forbrig/cart-pole",
+    "url": "",
+    "technologies": ["Python", "AI", "Q-Learning", "Reinforcement Learning"],
+    "image": "/projects/cart-pole/cart-pole.gif"
+  },
+  {
+    "title": "Ardu-Drone",
+    "description": "A drone built using Arduino, trials and errors, and various sensors.",
+    "repository": "",
+    "url": "",
+    "technologies": ["CPP", "Arduino", "Embedded", "Drone"],
+    "image": "/projects/ardu-drone/ardu-drone.jpg"
+  },
+  {
+    "title": "HaxeFlixel Game",
+    "description": "Game developed with HaxeFlixel. A language and framework I wanted to try out.",
+    "repository": "https://github.com/Forbrig/HaxeFlixel-Game",
+    "url": "https://forbrig.github.io/HaxeFlixel-Game/",
+    "technologies": ["Haxe", "HaxeFlixel"],
+    "image": "/projects/haxeflixel-game/haxeflixel-game.png"
+  },
+  {
+    "title": "Lottery Proccess Scheduler for the xv6 OS",
+    "description": "A lottery scheduling (process scheduler) algorithm for the xv6 OS.",
+    "repository": "https://github.com/Forbrig/os_youwon_xv6",
+    "url": "",
+    "technologies": ["C", "OS", "xv6"]
+  },
+  {
+    "title": "Krauts",
+    "description": "A fully functional coding language running on top of (interpreted by) Java.",
+    "repository": "https://github.com/Forbrig/Krauts",
+    "url": "",
+    "technologies": ["Java"]
+  },
+  {
+    "title": "Survetric",
+    "description": "Testing peer to peer techiniches using python and pygame.",
+    "repository": "https://github.com/Forbrig/survetric",
+    "url": "",
+    "technologies": ["Python", "PyGame", "Peer-to-Peer"],
+    "image": "/projects/survetric/survetric.png"
+  },
+  {
+    "title": "Ardu-Arm",
+    "description": "Arduino controlled robotic arm with 4 joints, includes code.",
+    "repository": "https://github.com/Forbrig/ardu-arm",
+    "url": "",
+    "technologies": ["CPP", "Arduino", "Embedded"],
+    "image": "/projects/ardu-arm/ardu-arm.png"
+  }
+]

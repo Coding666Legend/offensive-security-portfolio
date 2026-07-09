@@ -1,0 +1,96 @@
+.experience {
+  position: relative;
+  display: flex;
+  gap: 1rem;
+
+  .content {
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    flex: 1;
+
+    .header {
+      display: flex;
+      flex-direction: column;
+      width: 100%;
+      padding: 1rem;
+      gap: 1rem;
+      border-bottom: 1px solid var(--border-color);
+
+      .title-and-date {
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+        gap: 0.5rem;
+
+        .title {
+          color: var(--text-color);
+        }
+
+        .date {
+          display: flex;
+          gap: 0.5rem;
+          color: var(--text-color-secondary);
+        }
+      }
+
+      .technologies {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 0.5rem;
+      }
+    }
+
+    .description {
+      display: flex;
+      flex-direction: column;
+      font-size: 1rem;
+      color: var(--text-color-muted);
+      line-height: 1.5;
+      padding: 1rem;
+      gap: 1rem;
+
+      align-items: center;
+
+      .gallery {
+        display: flex;
+        flex-direction: column;
+        gap: 0.5rem;
+        margin-top: 0.5rem;
+        align-items: center;
+
+        .images {
+          display: flex;
+          flex-direction: column;
+          width: 100%;
+
+          gap: 1rem;
+          margin-top: 0.5rem;
+
+          background-color: var(--background-card-secondary);
+          padding: 1rem 0.5rem;
+          border-radius: var(--border-radius);
+
+          .imageContainer {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+
+            img {
+              max-width: 100%;
+              height: auto;
+              border-radius: var(--border-radius);
+            }
+
+            .description {
+              margin-top: 0.5rem;
+              font-size: 0.9rem;
+              color: var(--text-color);
+            }
+          }
+        }
+      }
+    }
+  }
+}
