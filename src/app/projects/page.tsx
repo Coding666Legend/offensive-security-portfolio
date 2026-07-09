@@ -16,6 +16,19 @@ import projects from "./projects.json";
 
 import styles from "./projects.module.scss";
 
+import projectsData from "./projects.json";
+
+type Project = {
+  title: string;
+  description: string;
+  repository: string;
+  technologies: string[];
+  image: string;
+  url?: string;
+};
+
+const projects: Project[] = projectsData;
+
 export default function ProjectsPage() {
   const { theme } = useTheme();
 
